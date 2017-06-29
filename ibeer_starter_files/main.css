@@ -14,7 +14,7 @@ light tan: #eeebda
 body{
     font-family: 'Noto Serif', serif;
     line-height: 1.8;
-    margin: 0 100px;
+    
     background-color: #eeebda;
 
 }
@@ -118,6 +118,8 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width:550px;
+    position:relative;
+    top:-50px;
     /*
         TODO: 
         - Flexbox: Set the starting width of this element
@@ -130,7 +132,7 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 200px;
     position: relative;
-
+    top:-50px;
     /*
         TODO: 
         - Flexbox: Set the starting width of this element
@@ -181,6 +183,7 @@ article img{
     */
 }
 article footer p{
+
     /*
         TODO: 
         - Style the article footer
@@ -188,8 +191,10 @@ article footer p{
     */
 }
 #site-footer{
-    
+    text-align: center;
+    color: white;
     background: #333;
+    padding: 20px;
     /*
         TODO: 
         - Style the site footer
